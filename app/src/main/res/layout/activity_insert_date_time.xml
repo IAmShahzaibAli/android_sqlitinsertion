@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertUser">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter id"
+        android:id="@+id/enterid"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:hint="Enter Name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@id/enterid"
+        android:id="@+id/entername"
+        android:layout_marginTop="10dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/entername"
+        android:id="@+id/enteremail"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone "
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_below="@id/enteremail"
+        android:id="@+id/enterphoneno"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/savebtn"
+        android:onClick="SaveData"
+        android:layout_below="@id/enterphoneno"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
